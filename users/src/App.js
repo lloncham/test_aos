@@ -91,7 +91,7 @@ class Login extends Component {
         </FormLabel>
         </FormGroup>
         <br />
-        <FormGroup controlId="email" bsSize="large">
+        <FormGroup controlId="psw" bsSize="large">
         <FormLabel>
           Password :
       <FormControl
