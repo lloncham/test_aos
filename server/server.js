@@ -22,7 +22,7 @@ app.post('/login', function(req, res){
 		if (user.email == req.body.email && user.password == req.body.psw)
 			return res.send( { status: 'ok' });
 		else
-			return res.send({ status: 'ici' })
+			return res.send({ status: 'ko' })
 		});
 })
 
