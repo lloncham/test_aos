@@ -6,7 +6,7 @@ mongoose
         console.log("Connected to mongoDB (db : aos_db)");
       })
     .catch(e => {
-		console.error('Connection error', e.message)
+		  console.error('Connection error', e.message)
     })
 
 const db = mongoose.connection

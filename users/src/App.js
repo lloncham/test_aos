@@ -23,7 +23,6 @@ class App extends React.Component {
       </BrowserRouter>
     );
   }
-
 }
 
 class Success extends Component {
@@ -45,6 +44,7 @@ class Fail extends Component {
 class Login extends Component {
   constructor(props) {
     super(props);
+
     this.state = { email: '', psw: ''};
 
     this.handleChangeemail = this.handleChangeemail.bind(this);
@@ -62,7 +62,7 @@ class Login extends Component {
 
   handleSubmit(event) {
     fetch("http://localhost:4000/login",
-      {
+    {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
@@ -87,7 +87,7 @@ class Login extends Component {
             type="text"
             name="email"
             value={this.state.email}
-            onChange={this.handleChangeemail} />
+            onChange={this.handleChangeemail}/>
         </FormLabel>
         </FormGroup>
         <br />
@@ -98,7 +98,7 @@ class Login extends Component {
             type="password"
             name="password"
             value={this.state.psw}
-            onChange={this.handleChangepsw} />
+            onChange={this.handleChangepsw}/>
         </FormLabel>
         </FormGroup>
         <br />
