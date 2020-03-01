@@ -1,6 +1,22 @@
+li {
+  font-size: 3vw;
+  display: inline;
+	border: 2px solid #000000;
+	font-family: Tahoma;
+	padding: 5px;
+	border-radius: 5px 5px;
+}
+
+.response {
+  font-size: 10vw;
+	font-family: Tahoma;
+  margin-left: 40vw;
+}
+
 .Login {
   width: 100%;
-  max-width: 600px;
+  max-width: 200px;
   margin: auto;
   margin-top: 100px;
+	font-family: Tahoma;
 }

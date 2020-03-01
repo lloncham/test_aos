@@ -28,7 +28,7 @@ class App extends React.Component {
 class Success extends Component {
   render() {
     return (
-      <div>Success</div>
+      <div className="response">Success</div>
     )
   }
 }
@@ -36,7 +36,7 @@ class Success extends Component {
 class Fail extends Component {
   render() {
     return (
-      <div>Fail</div>
+      <div className="response">Fail</div>
     )
   }
 }
